@@ -1,0 +1,340 @@
+@media only screen and (min-width: 1044px) {
+  .container {
+    width: 1044px;
+    height: 577px;
+    background-color: rgb(240, 243, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-box {
+    width: 1000px;
+    height: 525px;
+    background-color: white;
+    box-shadow: 5px 5px 10px darkgray;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .icon-input {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .icon-box {
+    width: 50px;
+    height: 53.5px;
+    background-color: rgb(240, 243, 245);
+    border-bottom: 2px solid rgb(215, 220, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-box {
+    width: 890px;
+    height: 55px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background-color: rgb(240, 243, 245);
+    border: none;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .input-box::placeholder {
+    font-size: 25px;
+  }
+  .swap {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 88px;
+    left: 925px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textbox1 {
+    display: flex;
+    width: 450px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .icon {
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+  .text1 {
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .text2 {
+    margin-left: 13px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .arrow1 {
+    position: absolute;
+    top: 184px;
+    left: 480px;
+    font-size: 30px;
+    color: red;
+  }
+  .textbox2 {
+    display: flex;
+    width: 450px;
+    height: 80px;
+    position: absolute;
+    top: 194px;
+    left: 550px;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .text3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .text4 {
+    margin-left: -85px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .arrow2 {
+    position: absolute;
+    top: -10px;
+    left: 420px;
+    font-size: 30px;
+    color: red;
+  }
+  .textbox3 {
+    display: flex;
+    width: 940px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .text5 {
+    margin-left: -177px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .text6 {
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .arrow3 {
+    position: absolute;
+    top: 285px;
+    left: 970px;
+    font-size: 30px;
+    color: red;
+  }
+  .class-box1 {
+    width: 230px;
+    height: 30px;
+    background-color: rgb(240, 243, 245);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 385px;
+    display: flex;
+    align-items: center;
+  }
+  .class-box2 {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 407px;
+    left: 525px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .button {
+    width: 940px;
+    height: 60px;
+    background-color: rgb(236, 0, 22);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1043px) {
+  .container {
+    width: 501px;
+    height: 592px;
+    background-color: rgb(240, 243, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-box {
+    width: 460px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 5px 5px 10px darkgray;
+  }
+  .icon-input {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .icon-box {
+    width: 50px;
+    height: 53px;
+    background-color: rgb(240, 243, 245);
+    border-bottom: 2px solid rgb(215, 220, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-box {
+    width: 370px;
+    height: 55px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background-color: rgb(240, 243, 245);
+    border: none;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .input-box::placeholder {
+    font-size: 25px;
+  }
+  .swap {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textbox1 {
+    display: flex;
+    width: 420px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .icon {
+    margin-top: 20px;
+    margin-left: 3px;
+  }
+  .text1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .text2 {
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .arrow1 {
+    position: absolute;
+    top: 154px;
+    left: 440px;
+    font-size: 30px;
+    color: red;
+  }
+  .textbox2 {
+    display: flex;
+    width: 420px;
+    height: 80px;
+    margin-left: 20px;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .text3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .text4 {
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .arrow2 {
+    position: absolute;
+    top: 234px;
+    left: 440px;
+    font-size: 30px;
+    color: red;
+  }
+  .textbox3 {
+    display: flex;
+    width: 420px;
+    height: 80px;
+    margin-left: 20px;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 220, 225);
+  }
+  .text5 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .text6 {
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 17px;
+  }
+  .arrow3 {
+    position: absolute;
+    top: 314px;
+    left: 440px;
+    font-size: 30px;
+    color: red;
+  }
+  .class-box1 {
+    width: 230px;
+    height: 30px;
+    background-color: rgb(240, 243, 245);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 115px;
+    display: flex;
+    align-items: center;
+  }
+  .class-box2 {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+    top: 439px;
+    left: 252px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .button {
+    width: 420px;
+    height: 60px;
+    background-color: rgb(236, 0, 22);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}

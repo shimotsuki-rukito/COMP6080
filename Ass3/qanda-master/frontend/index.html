@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend App</title>
+    <link rel="stylesheet" href="styles/global.css" />
+  </head>
+  <body>
+    <div id="loginForm">
+      <h2>Login</h2>
+      <input type="email" id="loginEmail" placeholder="Email" /><br />
+      <input type="password" id="loginPassword" placeholder="Password" /><br />
+      <button onclick="login()">Login</button>
+      <button onclick="showRegisterForm()">Register</button>
+    </div>
+
+    <div id="registerForm" style="display: none">
+      <h2>Register</h2>
+      <input type="email" id="registerEmail" placeholder="Email" /><br />
+      <input type="text" id="registerName" placeholder="Name" /><br />
+      <input
+        type="password"
+        id="registerPassword"
+        placeholder="Password"
+      /><br />
+      <input
+        type="password"
+        id="confirmPassword"
+        placeholder="Confirm Password"
+      /><br />
+      <button onclick="register()">Register</button>
+      <button onclick="showLoginForm()">Back to Login</button>
+    </div>
+
+    <div id="createThreadForm" style="display: none">
+      <h2>Create New Thread</h2>
+      <input type="text" id="threadTitle" placeholder="Title" /><br />
+      <textarea id="threadContent" placeholder="Content"></textarea><br />
+      <label> <input type="checkbox" id="threadIsPublic" /> Is Public </label
+      ><br />
+      <button onclick="createThread()">Submit</button>
+    </div>
+
+    <div id="dashboard" style="display: none">
+      <h2>Welcome to the Dashboard</h2>
+      <button onclick="logout()">Logout</button>
+      <div class="dashboard-content">
+        <div id="leftSide">
+          <div id="threadList"></div>
+          <button id="loadMoreButton" onclick="loadMoreThreads()">
+            Load More
+          </button>
+        </div>
+        <div id="threadDetails" style="display: none"></div>
+      </div>
+    </div>
+
+    <div id="editThreadForm" style="display: none">
+      <h2>Edit Thread</h2>
+      <input type="text" id="editThreadTitle" placeholder="Title" /><br />
+      <textarea id="editThreadContent" placeholder="Content"></textarea><br />
+      <label><input type="checkbox" id="editThreadIsPublic" /> Is Public</label
+      ><br />
+      <label><input type="checkbox" id="editThreadIsLocked" /> Is Locked</label
+      ><br />
+      <button onclick="saveEditedThread()">Save</button>
+    </div>
+
+    <div id="userProfile" style="display: none">
+      <h2>User Profile</h2>
+      <div id="userInfo"></div>
+      <div id="userThreads"></div>
+      <button id="backToDashboardButton">Back to Dashboard</button>
+      <div id="updateProfileForm" style="display: none">
+        <h3>Update Profile</h3>
+        <input type="email" id="updateEmail" placeholder="New Email" /><br />
+        <input type="text" id="updateName" placeholder="New Name" /><br />
+        <input
+          type="password"
+          id="updatePassword"
+          placeholder="New Password"
+        /><br />
+        <p>Update your profile image</p>
+        <input type="file" id="updateImage" accept="image/*" /><br />
+        <button onclick="updateProfile()">Update</button>
+      </div>
+    </div>
+  </body>
+  <script src="src/main.js"></script>
+</html>

@@ -1,0 +1,135 @@
+/* base styles, feel free to edit */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  /*height: 100vh;*/
+}
+
+#loginForm,
+#registerForm,
+#createThreadForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#loginForm,
+#registerForm,
+#createThreadForm,
+#editThreadForm,
+#userProfile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+#dashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+#threadList {
+  width: 400px;
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+#threadList div {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: auto;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+#threadDetails {
+  height: calc(100vh - 200px);
+  flex-grow: 1;
+  padding-left: 20px;
+  overflow-y: auto;
+}
+
+.userImageClick {
+  cursor: pointer;
+}
+
+.liked,
+.watching {
+  background-color: red;
+}
+
+.liked:hover,
+.watching:hover {
+  background-color: rgb(211, 1, 1);
+}
+
+#userThreads div {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: auto;
+  max-height: 100px;
+  overflow: hidden;
+}

@@ -1,0 +1,63 @@
+{
+  "users": {
+    "35546": {
+      "email": "james@email.com",
+      "name": "James",
+      "password": "betty",
+      "image": null,
+      "admin": false,
+      "threadsWatching": []
+    },
+    "39686": {
+      "email": "augustine@email.com",
+      "name": "Augustine",
+      "password": "august",
+      "image": null,
+      "admin": false,
+      "threadsWatching": []
+    },
+    "61421": {
+      "email": "betty@email.com",
+      "name": "Betty",
+      "password": "cardigan",
+      "image": null,
+      "admin": true,
+      "threadsWatching": []
+    }
+  },
+  "threads": {
+    "747830": {
+      "id": 747830,
+      "creatorId": 61421,
+      "title": "Why am I so awesome?",
+      "isPublic": false,
+      "content": "V confused why I'm so remarkable",
+      "lock": false,
+      "createdAt": "2024-02-06T21:20:15.369Z",
+      "likes": {},
+      "watchees": {}
+    },
+    "808403": {
+      "id": 808403,
+      "creatorId": 61421,
+      "title": "Where are my fries?",
+      "isPublic": true,
+      "content": "I like fries but I dont have any right now rip",
+      "lock": false,
+      "createdAt": "2024-02-06T21:20:15.363Z",
+      "likes": {},
+      "watchees": {}
+    }
+  },
+  "comments": {
+    "321911": {
+      "id": 321911,
+      "creatorId": 39686,
+      "threadId": 808403,
+      "parentCommentId": null,
+      "content": "testing testing",
+      "createdAt": "2024-02-06T21:20:15.376Z",
+      "likes": {}
+    }
+  }
+}

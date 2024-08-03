@@ -1,0 +1,42 @@
+* {
+  font-family: "Arial";
+}
+
+.container {
+  width: 1981px;
+  height: 844px;
+  background-color: rgb(0, 55, 129);
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  background-color: rgb(0, 55, 129);
+  margin-top: 80px;
+  width: 480px;
+  height: 680px;
+  float: left;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 33px;
+  color: white;
+  margin-top: 50px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+}
